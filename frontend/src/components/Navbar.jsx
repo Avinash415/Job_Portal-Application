@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
     
       <nav className={show ? "navbar show_navbar" : "navbar"}>
-        <div className="logo">
+        <div className="h-12 w-10 bg-slate-400 rounded-3xl">
           <img src="../../src/assests/logo1.png" alt="logo" />
         </div>
         <div className="links">
