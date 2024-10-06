@@ -256,8 +256,8 @@ const JobPost = () => {
           className="btn"
           onClick={handlePostJob}
           disabled={loading}
-        >
-          Post Job
+        > 
+        Post Job  
         </button>
       </div>
     </div>
