@@ -10,10 +10,18 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`flex items-center justify-between p-6 bg-gray-800 ${show ? 'h-auto overflow-hidden' : 'h-16'} transition-all duration-300 overflow-hidden`}>
-        {/* Logo */}
-        <div className="text-white text-2xl">
-          <img src="../../src/assests/logo1.png" alt="logo" className="h-10 rounded-full bg-slate-50 p-1" />
+<nav className={`flex items-center justify-between p-6 bg-gray-800 ${show ? 'h-auto overflow-hidden' : 'h-16'} transition-all duration-300`}>
+  
+  {/* Logo */}
+  <div className="h-12 w-10 bg-slate-400 rounded-3xl">
+    <img src="../../src/assests/logo1.png" alt="logo" className="h-10 rounded-full bg-slate-50 p-1" />
+  </div>
+
+  {/* Other Navbar Content */}
+  {/* Add the remaining navbar items here if any */}
+  
+</nav>
+
         </div>
 
         {/* Links */}

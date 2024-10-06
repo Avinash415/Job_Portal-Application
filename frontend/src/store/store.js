@@ -2,7 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import jobReducer from "../store/slices/jobSlice"
 import userReducer from "./slices/userSlice";
 import applicationReducer from "./slices/applicationSlice";
-// import updateProfileReducer from "./slices/updateProfileSlice";
+import updateProfileReducer from "./slices/updateProfileSlice";
 
 
 const store = configureStore({
@@ -10,7 +10,7 @@ const store = configureStore({
     user: userReducer,
     jobs: jobReducer,
     applications: applicationReducer,
-    // updateProfile: updateProfileReducer
+    updateProfile: updateProfileReducer
   },
   });
   
